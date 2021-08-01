@@ -45,13 +45,13 @@ public class GmailQuickstart {
      * If modifying these scopes, delete your previously saved tokens/ folder.
      */
     private static final List<String> SCOPES = Collections.singletonList(GmailScopes.MAIL_GOOGLE_COM);
-    private static final String CREDENTIALS_FILE_PATH =  
-    		System.getProperty("user.dir") +
-             File.separator + "src" +
-             File.separator + "main" +
-             File.separator + "resources" +
-             File.separator + "credentials" +
-             File.separator + "credentials.json";
+    private static final String CREDENTIALS_FILE_PATH = "E:\\QA_Infotech\\Training_Works\\Eclipse\\Utils\\Gmail_Automation_API\\credentials.json";
+//    		System.getProperty("user.dir") +
+//             File.separator + "src" +
+//             File.separator + "main" +
+//             File.separator + "resources" +
+//             File.separator + "credentials" +
+//             File.separator + "credentials.json";
     
     private static final String TOKENS_DIRECTORY_PATH = System.getProperty("user.dir") +
             File.separator + "src" +
